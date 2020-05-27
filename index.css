@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  background: 100% 100%;
+}
+.token_no{
+  margin-left: 150px;
+}
+.welcome_bar {
+  height: 56px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  background-color: darkblue;
+  line-height: 50px;
+  color: gold;
+  font-weight: 600;
+}
+
+.links {
+  height: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px 5px 0px 5px;
+  text-align: center;
+  line-height: 30px;
+  display: grid;
+  grid-template-columns: 8% 8% 8%;
+  background-color: #FEE12B;
+  font-family: 'Anton', sans-serif;
+}
+
+.workboard {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+}
+
+.menu_board {
+  box-sizing: border-box;
+  height: 800px;
+  margin: 10px 10% 10px 10%;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+table td {
+  padding: 5px 10px;
+  border: 1px solid #24252A;
+  text-align: left;
+}
+
+th {
+  background-color: #3a6070;
+  color: #fff;
+  padding: 5px 10px;
+  text-align: left;
+  border: 1px solid #24252A;
+}
+
+table tr:nth-child(odd) td {
+  background-color: #e2e2e2;
+}
+
+#input-box-size {
+  width: 110px;
+  height: 30px;
+  position: relative;
+  top: -2px;
+  font-size: 30px;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+.menu {
+  margin: 10px;
+  padding: 5px;
+}
+
+.sec-a {
+  border-right: 1px solid #24252A;
+}
+
+.sec-b {
+  padding: 10px;
+}
+
+.grand-total {
+  margin: 35% 7% 0% 25%;
+}
+
+.submit-button {
+  margin: 50px 100px 0px 235px;
+  padding: 10px 25px;
+  width: auto;
+  height: auto;
+  background-color: inherit;
+  border-radius: 5px;
+  border: 1px solid green;
+  color: green;
+}
+
+.submit-button:hover {
+  background-color: green;
+  color: white;
+  border: 1px solid black;
+}
